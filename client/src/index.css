@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column; 
+  /* Stack header and content vertically */
+}
+.container {
+  flex: 1; /* Allow the container to take the remaining space */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding-top: 70px; /* Adjust for header height */
+  width: 100%; /* Full width */
+}
+
+.App{
+  margin: 0 auto;
+  padding: 0 20px;
+  box-shadow: 0 0 35px #eee;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+button{
+  border: none;
+  outline:none;
+  background:transparent;
+  cursor: pointer;
+}
+
+@import url("./components/headers/header.css");
+
+@import url("./components/mainpages/products/products.css");
+
+@import url("./components/mainpages/utils/DetailProducts/detailProduct.css");
